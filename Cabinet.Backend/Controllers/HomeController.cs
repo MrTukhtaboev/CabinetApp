@@ -20,9 +20,16 @@ namespace Cabinet.Backend.Controllers
         private readonly CabinetDbContext CabinetDb;
 
         [HttpGet]
-        public IEnumerable<Person> Get()
+        public IActionResult Get()
         {
-            return CabinetDb.Persons;
+            try
+            {
+                return Ok(CabinetDb.Persons);
+            }
+            catch
+            {
+                return Ok("Database connecting is failed");
+            }
         }
 
         [HttpGet("{id}")]

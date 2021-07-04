@@ -32,17 +32,17 @@ namespace Cabinet.Backend
             services.AddControllers();
             services.AddDbContext<CabinetDbContext>(options =>
                 options.UseNpgsql(Configuration.GetConnectionString("Cabinet")));
-            
+
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo {Title = "Cabinet.Backend", Version = "v1"});
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "Cabinet.Backend", Version = "v1" });
             });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
-            if (env.IsDevelopment())
+            if (env.IsProduction())
             {
                 app.UseDeveloperExceptionPage();
                 app.UseSwagger();
