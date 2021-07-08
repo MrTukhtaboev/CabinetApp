@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "E4r5oHeTb0CS+EuYxlzJCPt6L1R4+9HoRyKjWDxPXZaWIkWqJSPcNMwkfDtWwSpglhYD2KBQHuxsZNaL4HWvaw==",
+  "dgSpecHash": "N9uf7xaJZx5AEJmEkgnA0U/uQdA0f45mH47niMWwV4VF0zVVnH5B8G8IJcUm0xwcK2TNiPrebaM3uKq/z08+rQ==",
   "success": true,
-  "projectFilePath": "E:\\My Projects\\Rider ASP.NET\\Cabinet\\Cabinet.Backend\\Cabinet.Backend.csproj",
+  "projectFilePath": "E:\\My Projects\\Rider ASP.NET\\Cabinet\\webapi-crud-sample\\Cabinet.Backend\\Cabinet.Backend.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\toxta\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.0-preview.5.21301.9\\microsoft.entityframeworkcore.6.0.0-preview.5.21301.9.nupkg.sha512",
     "C:\\Users\\toxta\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.0-preview.5.21301.9\\microsoft.entityframeworkcore.abstractions.6.0.0-preview.5.21301.9.nupkg.sha512",

@@ -1,0 +1,13 @@
+﻿# Default ignored files
+/shelf/
+/workspace.xml
+# Rider ignored files
+/modules.xml
+/projectSettingsUpdater.xml
+/.idea.Cabinet.iml
+/contentModel.xml
+# Datasource local storage ignored files
+/../../../../../../../../:\My Projects\Rider ASP.NET\Cabinet\webapi-crud-sample\.idea\.idea.Cabinet\.idea/dataSources/
+/dataSources.local.xml
+# Editor-based HTTP Client requests
+/httpRequests/

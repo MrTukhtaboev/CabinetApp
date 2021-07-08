@@ -9,7 +9,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace Cabinet.Backend.Controllers
 {
     [ApiController]
-    [Route("api/[controller]")]
+    [Route("api/[controller]/[action]")]
     public class HomeController : ControllerBase
     {
         public HomeController(CabinetDbContext _CabinetDB)
@@ -20,60 +20,12 @@ namespace Cabinet.Backend.Controllers
         private readonly CabinetDbContext CabinetDb;
 
         [HttpGet]
-        public IActionResult Get()
+        public IActionResult GetPersonWithCarName()
         {
-            try
-            {
-                return Ok(CabinetDb.Persons);
-            }
-            catch
-            {
-                return Ok("Database connecting is failed");
-            }
-        }
+            var joined = CabinetDb.Persons.Join(CabinetDb.Cars, p => p.CarID, c => c.ID, (person, car) =>
+                new {FullName = person.FirstName + " " + person.LastName, CarName = car.Name});
 
-        [HttpGet("{id}")]
-        public IActionResult Get(int id)
-        {
-            Person person = CabinetDb.Persons.FirstOrDefault(p => p.ID == id);
-            if (person == null)
-                return NotFound(person);
-            return Ok(person);
-        }
-
-        [HttpPost]
-        public IActionResult Post(Person person)
-        {
-            CabinetDb.Persons.Add(person);
-            CabinetDb.SaveChanges();
-            return Ok("true");
-        }
-
-        [HttpDelete("{id}")]
-        public IActionResult Delete(int id)
-        {
-            Person per = CabinetDb.Persons.FirstOrDefault(p => p.ID == id);
-            CabinetDb.Persons.Remove(per);
-            CabinetDb.SaveChanges();
-            return Ok("true");
-        }
-
-        [HttpPut("{id}")]
-        public IActionResult Update(int id, Person person)
-        {
-            var temp = CabinetDb.Persons.FirstOrDefault(p => p.ID == id);
-            temp.FirstName = person.FirstName;
-            temp.LastName = person.LastName;
-            temp.Username = person.Username;
-            temp.Phone = person.Phone;
-            CabinetDb.SaveChanges();
-            return Ok("true");
-        }
-
-        [HttpGet("test")]
-        public string TestMethod()
-        {
-            return DateTime.Now.ToString();
+            return Ok(joined);
         }
     }
 }

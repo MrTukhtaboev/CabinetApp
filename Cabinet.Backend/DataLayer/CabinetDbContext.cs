@@ -11,5 +11,6 @@ namespace Cabinet.Backend.DataLayer
         }
         
         public DbSet<Person> Persons { get; set; }
+        public DbSet<Car> Cars { get; set; }
     }
 }

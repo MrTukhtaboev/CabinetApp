@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\My Projects\\Rider ASP.NET\\Cabinet\\Cabinet.Backend\\Cabinet.Backend.csproj": {}
+    "E:\\My Projects\\Rider ASP.NET\\Cabinet\\webapi-crud-sample\\Cabinet.Backend\\Cabinet.Backend.csproj": {}
   },
   "projects": {
-    "E:\\My Projects\\Rider ASP.NET\\Cabinet\\Cabinet.Backend\\Cabinet.Backend.csproj": {
+    "E:\\My Projects\\Rider ASP.NET\\Cabinet\\webapi-crud-sample\\Cabinet.Backend\\Cabinet.Backend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\My Projects\\Rider ASP.NET\\Cabinet\\Cabinet.Backend\\Cabinet.Backend.csproj",
+        "projectUniqueName": "E:\\My Projects\\Rider ASP.NET\\Cabinet\\webapi-crud-sample\\Cabinet.Backend\\Cabinet.Backend.csproj",
         "projectName": "Cabinet.Backend",
-        "projectPath": "E:\\My Projects\\Rider ASP.NET\\Cabinet\\Cabinet.Backend\\Cabinet.Backend.csproj",
+        "projectPath": "E:\\My Projects\\Rider ASP.NET\\Cabinet\\webapi-crud-sample\\Cabinet.Backend\\Cabinet.Backend.csproj",
         "packagesPath": "C:\\Users\\toxta\\.nuget\\packages\\",
-        "outputPath": "E:\\My Projects\\Rider ASP.NET\\Cabinet\\Cabinet.Backend\\obj\\",
+        "outputPath": "E:\\My Projects\\Rider ASP.NET\\Cabinet\\webapi-crud-sample\\Cabinet.Backend\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

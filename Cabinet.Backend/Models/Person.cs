@@ -22,5 +22,8 @@ namespace Cabinet.Backend.Models
         [Column("phone")]
         [MaxLength(20)]
         public string Phone { get; set; }
+        
+        [Column("car_id")]
+        public int CarID { get; set; }
     }
 }
