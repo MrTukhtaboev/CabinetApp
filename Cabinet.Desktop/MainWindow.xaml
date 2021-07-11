@@ -12,7 +12,7 @@
     </Window.Resources>
     <Grid Background="Black" Opacity="0.9">
         <StackPanel x:Name="btnList" HorizontalAlignment="Center" VerticalAlignment="Center">
-            
+            <Button Content="NImadir"/>
         </StackPanel>
     </Grid>
 </Window>

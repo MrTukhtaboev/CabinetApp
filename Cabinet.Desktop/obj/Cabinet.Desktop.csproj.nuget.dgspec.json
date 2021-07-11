@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "E:\\My Projects\\Rider ASP.NET\\Cabinet\\webapi-crud-sample\\Cabinet.Desktop\\Cabinet.Desktop.csproj": {}
+    "C:\\New folder\\Backend\\webapi-crud-sample\\Cabinet.Desktop\\Cabinet.Desktop.csproj": {}
   },
   "projects": {
-    "E:\\My Projects\\Rider ASP.NET\\Cabinet\\webapi-crud-sample\\Cabinet.Desktop\\Cabinet.Desktop.csproj": {
+    "C:\\New folder\\Backend\\webapi-crud-sample\\Cabinet.Desktop\\Cabinet.Desktop.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\My Projects\\Rider ASP.NET\\Cabinet\\webapi-crud-sample\\Cabinet.Desktop\\Cabinet.Desktop.csproj",
+        "projectUniqueName": "C:\\New folder\\Backend\\webapi-crud-sample\\Cabinet.Desktop\\Cabinet.Desktop.csproj",
         "projectName": "Cabinet.Desktop",
-        "projectPath": "E:\\My Projects\\Rider ASP.NET\\Cabinet\\webapi-crud-sample\\Cabinet.Desktop\\Cabinet.Desktop.csproj",
-        "packagesPath": "C:\\Users\\toxta\\.nuget\\packages\\",
-        "outputPath": "E:\\My Projects\\Rider ASP.NET\\Cabinet\\webapi-crud-sample\\Cabinet.Desktop\\obj\\",
+        "projectPath": "C:\\New folder\\Backend\\webapi-crud-sample\\Cabinet.Desktop\\Cabinet.Desktop.csproj",
+        "packagesPath": "C:\\Users\\Adabiyot\\.nuget\\packages\\",
+        "outputPath": "C:\\New folder\\Backend\\webapi-crud-sample\\Cabinet.Desktop\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\toxta\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Adabiyot\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
@@ -27,8 +27,7 @@
           "net5.0-windows7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "http://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0-windows7.0": {
@@ -46,6 +45,14 @@
         "net5.0-windows7.0": {
           "targetAlias": "net5.0-windows",
           "dependencies": {
+            "MaterialDesignColors": {
+              "target": "Package",
+              "version": "[2.0.1, )"
+            },
+            "MaterialDesignThemes": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.1, )"

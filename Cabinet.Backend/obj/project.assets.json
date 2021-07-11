@@ -853,25 +853,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\toxta\\.nuget\\packages\\": {},
+    "C:\\Users\\Adabiyot\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\My Projects\\Rider ASP.NET\\Cabinet\\webapi-crud-sample\\Cabinet.Backend\\Cabinet.Backend.csproj",
+      "projectUniqueName": "C:\\New folder\\Backend\\webapi-crud-sample\\Cabinet.Backend\\Cabinet.Backend.csproj",
       "projectName": "Cabinet.Backend",
-      "projectPath": "E:\\My Projects\\Rider ASP.NET\\Cabinet\\webapi-crud-sample\\Cabinet.Backend\\Cabinet.Backend.csproj",
-      "packagesPath": "C:\\Users\\toxta\\.nuget\\packages\\",
-      "outputPath": "E:\\My Projects\\Rider ASP.NET\\Cabinet\\webapi-crud-sample\\Cabinet.Backend\\obj\\",
+      "projectPath": "C:\\New folder\\Backend\\webapi-crud-sample\\Cabinet.Backend\\Cabinet.Backend.csproj",
+      "packagesPath": "C:\\Users\\Adabiyot\\.nuget\\packages\\",
+      "outputPath": "C:\\New folder\\Backend\\webapi-crud-sample\\Cabinet.Backend\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\toxta\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Adabiyot\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
@@ -880,8 +880,7 @@
         "net5.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "http://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net5.0": {

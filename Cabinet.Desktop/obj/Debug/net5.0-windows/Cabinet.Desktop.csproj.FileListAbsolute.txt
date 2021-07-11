@@ -23,3 +23,35 @@ E:\My Projects\Rider ASP.NET\Cabinet\webapi-crud-sample\Cabinet.Desktop\obj\Debu
 E:\My Projects\Rider ASP.NET\Cabinet\webapi-crud-sample\Cabinet.Desktop\obj\Debug\net5.0-windows\Cabinet.Desktop.csproj.AssemblyReference.cache
 E:\My Projects\Rider ASP.NET\Cabinet\webapi-crud-sample\Cabinet.Desktop\bin\Debug\net5.0-windows\Newtonsoft.Json.dll
 E:\My Projects\Rider ASP.NET\Cabinet\webapi-crud-sample\Cabinet.Desktop\obj\Debug\net5.0-windows\Cabinet.Desktop.csproj.CopyComplete
+C:\New folder\Backend\webapi-crud-sample\Cabinet.Desktop\obj\Debug\net5.0-windows\Cabinet.Desktop.csproj.AssemblyReference.cache
+C:\New folder\Backend\webapi-crud-sample\Cabinet.Desktop\obj\Debug\net5.0-windows\Components\Buttons.baml
+C:\New folder\Backend\webapi-crud-sample\Cabinet.Desktop\obj\Debug\net5.0-windows\MainWindow.g.cs
+C:\New folder\Backend\webapi-crud-sample\Cabinet.Desktop\obj\Debug\net5.0-windows\MainWindow1.g.cs
+C:\New folder\Backend\webapi-crud-sample\Cabinet.Desktop\obj\Debug\net5.0-windows\App.g.cs
+C:\New folder\Backend\webapi-crud-sample\Cabinet.Desktop\obj\Debug\net5.0-windows\Cabinet.Desktop_MarkupCompile.cache
+C:\New folder\Backend\webapi-crud-sample\Cabinet.Desktop\obj\Debug\net5.0-windows\Cabinet.Desktop_MarkupCompile.lref
+C:\New folder\Backend\webapi-crud-sample\Cabinet.Desktop\obj\Debug\net5.0-windows\Cabinet.Desktop.dll
+C:\New folder\Backend\webapi-crud-sample\Cabinet.Desktop\obj\Debug\net5.0-windows\ref\Cabinet.Desktop.dll
+C:\New folder\Backend\webapi-crud-sample\Cabinet.Desktop\obj\Debug\net5.0-windows\Cabinet.Desktop.pdb
+C:\New folder\Backend\webapi-crud-sample\Cabinet.Desktop\bin\Debug\net5.0-windows\Cabinet.Desktop.exe
+C:\New folder\Backend\webapi-crud-sample\Cabinet.Desktop\bin\Debug\net5.0-windows\Cabinet.Desktop.deps.json
+C:\New folder\Backend\webapi-crud-sample\Cabinet.Desktop\bin\Debug\net5.0-windows\Cabinet.Desktop.runtimeconfig.json
+C:\New folder\Backend\webapi-crud-sample\Cabinet.Desktop\bin\Debug\net5.0-windows\Cabinet.Desktop.runtimeconfig.dev.json
+C:\New folder\Backend\webapi-crud-sample\Cabinet.Desktop\bin\Debug\net5.0-windows\Cabinet.Desktop.dll
+C:\New folder\Backend\webapi-crud-sample\Cabinet.Desktop\bin\Debug\net5.0-windows\ref\Cabinet.Desktop.dll
+C:\New folder\Backend\webapi-crud-sample\Cabinet.Desktop\bin\Debug\net5.0-windows\Cabinet.Desktop.pdb
+C:\New folder\Backend\webapi-crud-sample\Cabinet.Desktop\bin\Debug\net5.0-windows\MaterialDesignColors.dll
+C:\New folder\Backend\webapi-crud-sample\Cabinet.Desktop\bin\Debug\net5.0-windows\MaterialDesignThemes.Wpf.dll
+C:\New folder\Backend\webapi-crud-sample\Cabinet.Desktop\bin\Debug\net5.0-windows\Newtonsoft.Json.dll
+C:\New folder\Backend\webapi-crud-sample\Cabinet.Desktop\obj\Debug\net5.0-windows\App.baml
+C:\New folder\Backend\webapi-crud-sample\Cabinet.Desktop\obj\Debug\net5.0-windows\MainWindow.baml
+C:\New folder\Backend\webapi-crud-sample\Cabinet.Desktop\obj\Debug\net5.0-windows\MainWindow1.baml
+C:\New folder\Backend\webapi-crud-sample\Cabinet.Desktop\obj\Debug\net5.0-windows\Cabinet.Desktop.g.resources
+C:\New folder\Backend\webapi-crud-sample\Cabinet.Desktop\obj\Debug\net5.0-windows\Cabinet.Desktop.GeneratedMSBuildEditorConfig.editorconfig
+C:\New folder\Backend\webapi-crud-sample\Cabinet.Desktop\obj\Debug\net5.0-windows\Cabinet.Desktop.AssemblyInfoInputs.cache
+C:\New folder\Backend\webapi-crud-sample\Cabinet.Desktop\obj\Debug\net5.0-windows\Cabinet.Desktop.AssemblyInfo.cs
+C:\New folder\Backend\webapi-crud-sample\Cabinet.Desktop\obj\Debug\net5.0-windows\Cabinet.Desktop.csproj.CoreCompileInputs.cache
+C:\New folder\Backend\webapi-crud-sample\Cabinet.Desktop\obj\Debug\net5.0-windows\Cabinet.Desktop.csproj.CopyComplete
+C:\New folder\Backend\webapi-crud-sample\Cabinet.Desktop\obj\Debug\net5.0-windows\Cabinet.Desktop.genruntimeconfig.cache
+C:\New folder\Backend\webapi-crud-sample\Cabinet.Desktop\obj\Debug\net5.0-windows\CilentControl.g.cs
+C:\New folder\Backend\webapi-crud-sample\Cabinet.Desktop\obj\Debug\net5.0-windows\CilentControl.baml

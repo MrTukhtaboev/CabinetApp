@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "0nL7bZPSuH1QNq0aGnckCcp0gXj+8BuiEp2fpV986VSIHuRxUfckNpuJNcBSS/jNQg3vYM2w5Jv+9gm+7tzFqg==",
+  "dgSpecHash": "30ilb5YVj2AScZK5I0KbSNt5ngsnZYLENHwV9B4lJ+oS1j5YQ5TjiIAw6rt+kO7W/zMmHU2VQJ6TAOhyhZScoQ==",
   "success": true,
-  "projectFilePath": "E:\\My Projects\\Rider ASP.NET\\Cabinet\\webapi-crud-sample\\Cabinet.Desktop\\Cabinet.Desktop.csproj",
+  "projectFilePath": "C:\\New folder\\Backend\\webapi-crud-sample\\Cabinet.Desktop\\Cabinet.Desktop.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\toxta\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+    "C:\\Users\\Adabiyot\\.nuget\\packages\\materialdesigncolors\\2.0.1\\materialdesigncolors.2.0.1.nupkg.sha512",
+    "C:\\Users\\Adabiyot\\.nuget\\packages\\materialdesignthemes\\4.1.0\\materialdesignthemes.4.1.0.nupkg.sha512",
+    "C:\\Users\\Adabiyot\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
   ],
   "logs": []
 }

@@ -31,5 +31,30 @@ namespace Cabinet.Backend.Controllers
 
             return Ok(res);
         }
+        [HttpPost]
+        public IActionResult Post(Car car)
+        {
+            CabinetDB.Cars.Add(car);
+            CabinetDB.SaveChanges();
+            return Ok("True");
+        }
+        [HttpDelete]
+        public IActionResult Delete(int id)
+        {
+            Car car = CabinetDB.Cars.FirstOrDefault(x => x.ID == id);
+            CabinetDB.Cars.Remove(car);
+            CabinetDB.SaveChanges();
+            return Ok("True");
+        }
+        [HttpPut]
+        public IActionResult Put(int id, Car car)
+        {
+            var temp = CabinetDB.Cars.FirstOrDefault(x => x.ID == id);
+            temp.Name = car.Name;
+            temp.Color = car.Color;
+            temp.Number = car.Number;
+            CabinetDB.SaveChanges();
+            return Ok("True");
+        }
     }
 }

@@ -7,10 +7,15 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Folder Include="ServiceLayer\Car\" />
+      <Compile Remove="ServiceLayer\Car\**" />
+      <EmbeddedResource Remove="ServiceLayer\Car\**" />
+      <None Remove="ServiceLayer\Car\**" />
+      <Page Remove="ServiceLayer\Car\**" />
     </ItemGroup>
 
     <ItemGroup>
+      <PackageReference Include="MaterialDesignColors" Version="2.0.1" />
+      <PackageReference Include="MaterialDesignThemes" Version="4.1.0" />
       <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
     </ItemGroup>
 
