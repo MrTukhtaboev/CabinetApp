@@ -1,0 +1,33 @@
+﻿<Window x:Class="Desktop.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:MD="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns:local="clr-namespace:Desktop"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="50*"/>
+            <ColumnDefinition Width="100*"/>
+        </Grid.ColumnDefinitions>
+        <Grid Grid.Column="0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid Grid.Row="0">
+                <TextBlock x:Name="DateNowtxt" Text="Bu yerda vaqt bo`ladi" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center" FontWeight="ExtraBold"/>
+            </Grid>
+            <Grid Grid.Row="1">
+                <StackPanel>
+                    <DatePickerTextBox/>
+                </StackPanel>
+            </Grid>
+        </Grid>
+        <Grid Grid.Column="1">
+            <ItemsControl x:Name="ItemsPanel"/>
+        </Grid>
+    </Grid>
+</Window>

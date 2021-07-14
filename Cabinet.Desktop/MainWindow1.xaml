@@ -17,7 +17,7 @@
                 <RowDefinition Height="200*" />
                 <RowDefinition Height="100"/>
             </Grid.RowDefinitions>
-            <Grid Grid.Row="0">
+            <Grid Grid.Row="0" HorizontalAlignment="Center">
                 <StackPanel >
                     <TextBlock VerticalAlignment="Center" Margin="5,40,5,5" FontSize="20" Width="200" Height="60" TextAlignment="Center" Foreground="Snow" FontFamily="Candara" FontWeight="Bold" ><Run Text="Avtomobillarni "/><LineBreak/><Run Text="ro`yhatga olish dasturi"/></TextBlock>
                     <TextBox VerticalAlignment="Center" Padding="6" MD:TextFieldAssist.TextFieldCornerRadius="5" Background="AliceBlue" MD:HintAssist.Hint ="Search" Margin="5" Width="200" Height="auto" />
