@@ -40,7 +40,7 @@ namespace Cabinet.Backend.Controllers
         }
 
         [HttpPost]
-        public IActionResult Post(Person person)
+        public IActionResult Post([FromBody]Person person)
         {
             CabinetDb.Persons.Add(person);
             CabinetDb.SaveChanges();
